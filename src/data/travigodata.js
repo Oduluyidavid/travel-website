@@ -40,11 +40,11 @@ export const brands = [
 ];
 
 export const navlinks = [
-  { text: "Home", id: "home" },
-  { text: "About", id: "about" },
-  { text: "Explore", id: "explore" },
-  { text: "Pricing", id: "pricing" },
-  { text: "Contact", id: "contact" },
+  { link: "Home", id: "home" },
+  { link: "About", id: "about" },
+  { link: "Explore", id: "explore" },
+  { link: "Pricing", id: "pricing" },
+  { link: "Contact", id: "contact" },
 ];
 
 export const hero = {
