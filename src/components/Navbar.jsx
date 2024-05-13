@@ -10,21 +10,21 @@ const Navbar = ({navlinks}) => {
   const [navState, setNavState] = useState(false);
   const onTriggerPopup = () => setPopupState(!popupState);
 
-  const onNavScroll = () => {
+ /* const onNavScroll = () => {
     if(window.scrollY > 180) {
       setNavState(true);
     } else {
       setNavState(false);
     }
-  }
+  } */
 
-  useEffect(() => {
+  /*useEffect(() => {
     window.addEventListener('scroll', onNavScroll);
 
     return () => {
       window.removeEventListener('scroll', onNavScroll);
     }
-  }, [])
+  }, [])*/
 
   
   // console.log(popupState)
